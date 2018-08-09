@@ -21,7 +21,7 @@ This topic provides best practices for running the Microsoft Application Virtual
 
 The following best practices should be considered when configuring the computer running the App-V Sequencer:
 
--   **Sequence on a computer that has a similar configuration and that is running an earlier version of the operating system than the target computers.**
+-   **Sequence on a computer that has a similar configuration and that is running the earliest targeted version of operating system in your environment.**
 
     Ensure that the computer that is running the Sequencer is running an earlier version of the operating system than the target computers. This includes the service pack and update versions. For example, if the target computers are running Windows Vista and Windows XP, you should sequence applications on a computer that is running Windows XP. The ability to sequence on one operating system and run the virtualized application on a different operating system is not guaranteed, and depends on the particular application and operating system. If you encounter issues, you may be required to sequence on the same operating system environment as the one on which the App-V client is running.
 
